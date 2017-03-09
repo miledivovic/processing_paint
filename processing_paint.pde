@@ -678,16 +678,16 @@ void setup() {
   colorBoxList.add(darkGreen);
   colorBoxList.add(lightBlue);
 
-  saveImg = loadImage("floppy_disc.png");
-  pencilImg = loadImage("pencil.png");
-  textImg = loadImage("letter_t.png");
-  eraserImg = loadImage("eraser.png");
-  sprayImg = loadImage("sprayImg.png");
-  brushImg = loadImage("paintBrush.png");
-  sizeImg = loadImage("size.PNG");
-  markerImg = loadImage("marker.png");
-  coloredPencilImg = loadImage("coloredPencil.png");
-  clearImg = loadImage("clearButton.png");
+  saveImg = loadImage("assets/floppy_disc.png");
+  pencilImg = loadImage("assets/pencil.png");
+  textImg = loadImage("assets/letter_t.png");
+  eraserImg = loadImage("assets/eraser.png");
+  sprayImg = loadImage("assets/sprayImg.png");
+  brushImg = loadImage("assets/paintBrush.png");
+  sizeImg = loadImage("assets/size.PNG");
+  markerImg = loadImage("assets/marker.png");
+  coloredPencilImg = loadImage("assets/coloredPencil.png");
+  clearImg = loadImage("assets/clearButton.png");
 }
 
 
@@ -713,8 +713,3 @@ void draw() {
     textObject.drawTextObject();
   }
 }
-
-
-
-
-
